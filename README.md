@@ -636,6 +636,24 @@ Generated figures include:
 
 Example output figures are written into [results](c:\Users\AndyW\anaconda_projects\rdf_project\results).
 
+### Water RDF Examples
+
+| O-O RDF | O-H RDF |
+|---|---|
+| ![](results/rdf_O_O.png) | ![](results/rdf_O_H.png) |
+
+### H-H RDF
+
+![](results/rdf_H_H.png)
+
+### Lennard-Jones Fluid RDF
+
+![](results/lj_fluid/rdf_LJ_LJ.png)
+
+### Structure Factor Example
+
+![](results/structure_factor_Ar_Ar.png)
+
 ## GitHub Repository Suggestions
 
 ### Recommended repository name
