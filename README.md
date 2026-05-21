@@ -627,14 +627,12 @@ The new batch interface lives in [src/trajectory.py](c:\Users\AndyW\anaconda_pro
 
 Generated figures include:
 
-- RDF curve `g(r) vs r`
-- structure factor curve `S(k) vs k`
-- ideal-gas reference line `g(r)=1`
+- RDF curve $g(r)$ vs $r$
+- structure factor curve $S(k)$ vs $k$
+- ideal-gas reference line $g(r)=1$
 - first peak marker
 - first minimum marker
 - shaded coordination-number region up to the first minimum
-
-Example output figures are written into [results](c:\Users\AndyW\anaconda_projects\rdf_project\results).
 
 ### Water RDF Examples
 
@@ -654,37 +652,8 @@ Example output figures are written into [results](c:\Users\AndyW\anaconda_projec
 
 ![](results/structure_factor_Ar_Ar.png)
 
-## GitHub Repository Suggestions
+Example output figures are written into `results/`.
 
-### Recommended repository name
-
-`rdf-and-structure-factor-from-scratch`
-
-### GitHub description
-
-Handwritten radial distribution function (RDF) and static structure factor S(k) analysis in Python for molecular simulation, with XYZ, LAMMPS, and GROMACS trajectory support.
-
-### Suggested GitHub topics
-
-- `computational-physics`
-- `molecular-dynamics`
-- `radial-distribution-function`
-- `rdf`
-- `python`
-- `molecular-simulation`
-- `statistical-mechanics`
-- `atomistic-simulation`
-- `structure-factor`
-
-### Example commit messages
-
-- `feat: implement RDF normalization with shell-volume and density corrections`
-- `feat: add water RDF example for O-O, O-H, and H-H analysis`
-- `feat: support multi-frame LAMMPS dump parsing`
-- `feat: add optional GROMACS trajectory loading via MDAnalysis`
-- `feat: derive static structure factor S(k) from RDF`
-- `docs: rewrite README with RDF derivation and usage examples`
-- `plot: annotate first peak, first minimum, and coordination shell region`
 
 ## Future Roadmap
 
