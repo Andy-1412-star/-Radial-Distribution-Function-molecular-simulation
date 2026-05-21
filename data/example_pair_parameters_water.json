@@ -1,0 +1,32 @@
+{
+  "default": {
+    "r_max": 6.0,
+    "bin_width": 0.05,
+    "smoothing_window": 5,
+    "title_prefix": "Automatic Pair RDF",
+    "output_prefix": "rdf"
+  },
+  "pairs": {
+    "O-O": {
+      "r_max": 6.0,
+      "bin_width": 0.05,
+      "smoothing_window": 5,
+      "title": "Water O-O RDF",
+      "output_stem": "rdf_water_O_O"
+    },
+    "O-H": {
+      "r_max": 4.0,
+      "bin_width": 0.025,
+      "smoothing_window": 7,
+      "title": "Water O-H RDF",
+      "output_stem": "rdf_water_O_H"
+    },
+    "H-H": {
+      "r_max": 4.0,
+      "bin_width": 0.025,
+      "smoothing_window": 7,
+      "title": "Water H-H RDF",
+      "output_stem": "rdf_water_H_H"
+    }
+  }
+}

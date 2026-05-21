@@ -1,0 +1,4 @@
+pair,atom_type_a,atom_type_b,frames_used,first_peak_r,first_peak_g,first_minimum_r,first_minimum_g,coordination_number
+O-O,O,O,2,5.175000000000001,8.557729149043084,5.375,0.0,1.5
+O-H,O,H,2,0.9625000000000001,1484.253159412431,1.0625,0.0,2.0
+H-H,H,H,2,1.5125000000000002,343.4750308926875,1.6125,0.0,0.9999999999999998
